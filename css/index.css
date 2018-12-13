@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headSec {
+    background-image: url("../files/food6.jpg");
+}
+
+/*NAV BAR */
+.row1{
+    width: 100%;
+    height: 150px;
+}
+
+.menuList{
+    list-style-type: none;
+    text-align: center;
+    color: #c69500;
+    font-size: 25px;
+    font-family: Chilanka;
+    margin: 15px 150px;
+    float: right;
+}
+
+.menuList li {
+    padding: 5px 13px;
+    display: inline-block;
+    position: relative;
+}
+
+ .headSec li a{
+    text-decoration: none;
+    color: #c69500;
+    z-index: 1;
+}
+
+ .headSec li a:before{
+    content:"";
+    position:absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #0b2e13;
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .25s linear
+}
+
+.headSec li a:hover:before,
+ .headSec li a:focus:before{
+    visibility: visible;
+    transform: scaleX(1);
+}
+/*NAV BAR */
+
+.headText{
+    padding: 5px 5px;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: Chilanka;
+    color: #ebebeb;
+}
+
+.headButton{
+    text-align: center;
+    margin-top: 85px;
+}
+
+.btn01{
+    border: none;
+    padding: 5px 10px;
+    margin-right: 20px;
+    color: #ebebeb;
+    background-color: rgba(179, 179, 0,0.3);
+    outline:none;
+    box-shadow: 1px 2px 2px 2px black;
+    transition:all .2s ease-in-out;
+}
+
+.btn02{
+    border: none;
+    padding: 5px 10px;
+    margin-left: 20px;
+    color: #ebebeb;
+    background-color: rgba(0, 51, 0,0.3);
+    box-shadow: 1px 2px 2px 2px black;
+    transition:all .2s ease-in-out;
+}
+
+.btn01:hover,
+.btn02:hover{
+    transform: scale(1.1);
+}
+
+/*section2*/
+
+.slideInfo{
+    background-image: url("../files/back3.jpg");
+}
+
+.col-5 p{
+    text-align: center;
+    font-family: Chilanka;
+    font-size: 20px;
+    color: #0b2e13;
+    margin-top: 50px;
+}
+
+.h1Title{
+    color: #c69500;
+    text-align: center;
+    font-family: Chilanka;
+    margin-top: 50px;
+}
+
+/*slide*/
+
+
+/*ingredients info*/
+
+.ingredient{
+    background-image: url("../files/ing3.jpg");
+
+}
+
+.ingInfo {
+    width: 100%;
+    height: 480px;
+    text-align: center;
+}
+
+.info{
+width: 600px;
+    background-color: rgba(13, 13, 13,0.5);
+    text-align: center;
+    padding: 20px;
+    font-family: Chilanka;
+   display: inline-block;
+    margin-top: 80px;
+}
+
+.info h2{
+    color: #c69500;
+}
+
+.info p{
+    color: #ebebeb;
+    font-size: 18px;
+}
+
+/*ingredients pics*/
+
+.imgRadius{
+    width: 100%;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 14px;
+}
+
+.ingPic{
+    margin: 100px 0 0 10px;
+}
+
+.ingPic2{
+    margin: 100px 10px 0 0;
+}
+
+
+.ingPic div{
+    background-color: rgba(13, 13, 13,0.5);
+    border-radius: 50%;
+    height: 100px;
+
+}
+
+.ingPic2 div{
+    background-color: rgba(13, 13, 13,0.5);
+    border-radius: 50%;
+    height: 100px;
+}
+
+
+/*menu*/
+
+.menu{
+    background-image: url("../files/menuback5.jpg");
+
+}
+
+.appetisers{
+    width: 60%;
+    margin: auto;
+    font-family: Chilanka;
+    padding: 20px ;
+}
+
+.appetisers h2{
+    color: lightgray;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.appetisers p{
+    color: white;
+    line-height:3px;
+}
+
+.menuRows hr{
+    background-color: #c69500;
+}
+
+.menuSpan{
+    float: right;
+}
+.menuSpan1{
+    color: lightgrey;
+    font-size: 12px;
+}
+
+.menuRows{
+    margin-bottom: 10px;
+    padding: 13px;
+}
+
+
+.salads{
+    width: 60%;
+    margin: auto;
+    font-family: Chilanka;
+    padding: 40px 0;
+}
+
+.salads h2{
+    color: lightgrey;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.salads p{
+    color: white;
+    line-height:3px;
+}
+
+.special{
+    clear: both;
+    border: black solid 1px;
+}
+
+.specialBadge{
+    width: 25%;
+    float: right;
+    text-align: center;
+    background-color: #c69500;
+    border-top-right-radius: 10px;
+}
+
+
+
+
+
+.starters{
+    width: 60%;
+    margin: auto;
+    font-family: Chilanka;
+    padding: 40px 0;
+}
+
+.starters h2{
+    color: lightgrey;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.starters p{
+    color: white;
+    line-height:3px;
+}
+
+.maineDishes{
+    width: 60%;
+    margin: auto;
+    font-family: Chilanka;
+    padding: 40px 0;
+}
+
+.maineDishes h2{
+    color: lightgrey;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.maineDishes p{
+    color: white;
+    line-height:3px;
+}
+
+
+
+
