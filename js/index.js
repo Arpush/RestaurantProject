@@ -4,7 +4,7 @@ $(document).ready(function () {
     var $window = $(window);
     var window_top_position = $window.scrollTop();
 
-    $window.on('scroll resize',fixedHeader );
+    // $window.on('scroll resize',fixedHeader );
     $window.on('scroll resize',check_if_in_view );
 
 
