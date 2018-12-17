@@ -755,6 +755,10 @@ padding-top: 150px;
     .about_flexContainer div p{
         font-size: 15px;
     }
+
+    .endDots{
+        width: 100%!important;
+    }
 }
 
 
@@ -1001,6 +1005,11 @@ padding-top: 150px;
     .about_flexContainer div p{
         font-size: 12px;
     }
+
+    .endDots{
+        width: 100%!important;
+    }
+
 }
 
 
